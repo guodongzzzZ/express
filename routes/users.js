@@ -1,9 +1,14 @@
 var express = require('express');
+var user = require('./../controllers/userController')
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+router.get('/user_list', function(req, res, next) {
+  var sql = 'SELECT * FROM user'
+  connection.query(sql, function(err, data) {
+    res.send(data);
+  })
+  
+})
 
 module.exports = router;
