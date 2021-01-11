@@ -16,7 +16,7 @@
       "user": "root",
       "host": ["58.87.78.230"],
       "port": "22",
-      "ref": "origin/master",
+      "ref": "origin/main",
       "repo": "https://github.com/guodongzzzZ/express.git",
       "path": "/guodong/app/express",
       "ssh_options": "StrictHostKeyChecking=no",
