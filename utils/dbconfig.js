@@ -3,11 +3,19 @@
  */
 let mysql = require('mysql')
 module.exports = {
+  // config: {
+  //   host     : 'localhost',
+  //   user     : 'root',
+  //   password : 'qwerty123456',
+  //   database : 'mytest',
+  //   port     : '3306'
+  // },
+
   config: {
     host     : 'localhost',
     user     : 'root',
-    password : 'qwerty123456',
-    database : 'mytest',
+    password : 'qq36896822',
+    database : 'express',
     port     : '3306'
   },
 
