@@ -1,0 +1,28 @@
+{
+  "apps":[
+    {
+      "name": "express", 
+      "script": "app.js",
+      "env": {
+        "COMMON_varIABLE": "true"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "root",
+      "host": ["58.87.78.230"],
+      "port": "22",
+      "ref": "origin/master",
+      "repo": "https://github.com/guodongzzzZ/express.git",
+      "path": "/guodong/app/express",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env": {
+          "NODE_ENV": "production"
+      }
+    }
+  }
+}
