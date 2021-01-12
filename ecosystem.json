@@ -19,7 +19,6 @@
       "ref": "origin/main",
       "repo": "https://github.com/guodongzzzZ/express.git",
       "path": "/guodong/app",
-      "ssh_options": "StrictHostKeyChecking=no",
       "env": {
           "NODE_ENV": "production"
       }
